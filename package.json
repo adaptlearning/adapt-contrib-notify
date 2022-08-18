@@ -11,6 +11,20 @@
     "adapt-plugin",
     "adapt-extension"
   ],
+  "adapt_framework": {
+    "compilationMap": {
+      "core/js/models/notifyModel": "adapt-contrib-notify/js/NotifyModel",
+      "core/js/views/notifyPopupView": "adapt-contrib-notify/js/NotifyPopupView",
+      "core/js/collections/notifyPushCollection": "adapt-contrib-notify/js/NotifyPushCollection",
+      "core/js/views/notifyPushView": "adapt-contrib-notify/js/NotifyPushView",
+      "core/js/views/notifyView": "adapt-contrib-notify/js/NotifyView",
+      "core/js/notify": "adapt-contrib-notify/js/notify"
+    }
+  },
+  "displayName": "Notify",
+  "extension": "notify",
+  "targetAttribute": "_notify",
+  "main": "/js/adapt-contrib-notify.js",
   "license": "GPL-3.0",
   "bugs": "https://github.com/adaptlearning/adapt-contrib-notify/issues",
   "private": true,
